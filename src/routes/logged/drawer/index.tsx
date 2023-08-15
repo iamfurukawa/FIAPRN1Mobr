@@ -5,7 +5,7 @@ import {
 import React from 'react';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 
-import {Dashboard, Maps} from '@screens';
+import {Dashboard, Maps, Membros, Michelle, Thiago, Vinicius} from '@screens';
 import {$COLORS} from '@utils';
 
 import {CustomDrawerContent} from './components';
@@ -50,6 +50,45 @@ export function LoggedDrawer() {
           drawerIcon: ({color}) => renderIcon(color, 'map'),
         }}
         component={Maps}
+      />
+      <Drawer.Screen
+        name="Membros"
+        component={Membros}
+        options={{
+          title: 'Membros',
+          headerTitle: 'Membros',
+          drawerIcon: ({color}) => renderIcon(color, 'users'),
+        }}
+      />
+      <Drawer.Screen
+        name="Vinicius"
+        component={Vinicius}
+        options={{
+          title: 'Vinícius F. Carvalho',
+          headerTitle: 'Vinícius F. Carvalho',
+          drawerIcon: ({color}) => renderIcon(color, 'user'),
+          drawerItemStyle: { marginLeft: 30 },
+        }}
+      />
+      <Drawer.Screen
+        name="Michelle"
+        component={Michelle}
+        options={{
+          title: 'Michelle Sinibaldi',
+          headerTitle: 'Michelle Sinibaldi',
+          drawerIcon: ({color}) => renderIcon(color, 'user'),
+          drawerItemStyle: { marginLeft: 30 },
+        }}
+      />
+      <Drawer.Screen
+        name="Thiago"
+        component={Thiago}
+        options={{
+          title: 'Thiago Malcher',
+          headerTitle: 'Thiago Malcher',
+          drawerIcon: ({color}) => renderIcon(color, 'user'),
+          drawerItemStyle: { marginLeft: 30 },
+        }}
       />
     </Drawer.Navigator>
   );

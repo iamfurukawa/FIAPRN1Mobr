@@ -1,26 +1,79 @@
 {
   "project_info": {
-    "project_number": "555776163281",
-    "project_id": "fiap-1mobr",
-    "storage_bucket": "fiap-1mobr.appspot.com"
+    "project_number": "765063307797",
+    "project_id": "shopping-list-cc266",
+    "storage_bucket": "shopping-list-cc266.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:555776163281:android:3159575f9a0e46124634f0",
+        "mobilesdk_app_id": "1:765063307797:android:c3977d1a9786ca77bd241c",
         "android_client_info": {
-          "package_name": "com.fiaprn1mobr"
+          "package_name": "br.com.fiap.rn.mobr1"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "765063307797-82ruolh8d96h1e2b890vns8end63ha4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyDEfeH-CS2ChtV64GrEV6e5x_9gXbK8UDY"
+          "current_key": "AIzaSyAMKLhNGKFCozzG3Q4Ll0Zov-m-t4UjPN4"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765063307797-82ruolh8d96h1e2b890vns8end63ha4a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "765063307797-spanpn1jvk5hm3umm4uraal5kp361e4v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.mobr.shoppingList"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765063307797:android:e107a934f3710bdbbd241c",
+        "android_client_info": {
+          "package_name": "br.com.mobr.shopping_list"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765063307797-82ruolh8d96h1e2b890vns8end63ha4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMKLhNGKFCozzG3Q4Ll0Zov-m-t4UjPN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765063307797-82ruolh8d96h1e2b890vns8end63ha4a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "765063307797-spanpn1jvk5hm3umm4uraal5kp361e4v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.mobr.shoppingList"
+              }
+            }
+          ]
         }
       }
     }
