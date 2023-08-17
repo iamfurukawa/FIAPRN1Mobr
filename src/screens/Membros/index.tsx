@@ -16,7 +16,7 @@ const Membros = () => {
         <View style={styles.content}>
           <Text style={styles.text}>Participantes do time</Text>
           <TouchableOpacity onPress={() => navigation.navigate('Vinicius')}>
-            <Avatar name="Vinícius F Carvalho" photo={Vinicius} />
+            <Avatar name="Vinícius F. Carvalho" photo={Vinicius} />
           </TouchableOpacity>
           <TouchableOpacity onPress={() => navigation.navigate('Michelle')}>
             <Avatar name="Michelle Sinibaldi" photo={Michelle} />

@@ -3,10 +3,9 @@ import Section from "../components/section";
 
 const Contact = () => {
     return (
-      <Section title="Contato">
+      <Section title="Como me achar">
         <Link title='LinkedIn' url='https://www.linkedin.com/in/iamfurukawa/'/>
-        <Link title='Email' url='vinicius_furuka@hotmail.com.br' isAlert/>
-        <Link title='Instagram' url='https://www.instagram.com/iamvinifurukawa/'/>
+        <Link title='Github' url='https://github.com/iamfurukawa'/>
       </Section>
     );
   };

@@ -3,9 +3,9 @@ import Section from '../components/section';
 
 const Technologies = () => {
   return (
-    <Section title="Tecnologias">
+    <Section title="Tecnologias conhecidas">
       <View>
-        <Text>Que já estudei ou trabalhei{'\n'}</Text>
+        <Text>O que já estudei e/ou trabalhei{'\n'}</Text>
         <FlatList
           data={[
             {key: 'Python'},
@@ -13,16 +13,15 @@ const Technologies = () => {
             {key: 'Java'},
             {key: 'Flutter'},
             {key: 'React'},
-            {key: 'Angular'},
-            {key: 'PostgreSQL'},
-            {key: 'MySQL'},
+            {key: 'PostgreSQL/MySQL'},
             {key: 'AWS'},
+            {key: 'Svelte'},
             {key: 'Firebase'},
             {key: 'Docker'},
           ]}
           renderItem={({item}) => {
             return (
-              <View style={{marginBottom: 10}}>
+              <View style={{marginBottom: 15}}>
                 <Text style={{fontSize: 20}}>{`\u2022 ${item.key}`}</Text>
               </View>
             );
