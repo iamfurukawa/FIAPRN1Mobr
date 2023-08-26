@@ -10,6 +10,8 @@ import {
   ImageBackground,
 } from 'react-native';
 
+import Link from "../Vinicius/components/link";
+
 type SectionProps = PropsWithChildren<{
   title: string;
 }>;
@@ -26,9 +28,8 @@ function Section({children, title}: SectionProps): JSX.Element {
 const Michelle = () => {
   return (
     <SafeAreaView>
-      <StatusBar/>
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic">
+      <StatusBar />
+      <ScrollView contentInsetAdjustmentBehavior="automatic">
         <ImageBackground
           source={require('./images/background.jpg')}
           resizeMode="cover"
@@ -59,8 +60,7 @@ const Michelle = () => {
             />
           </View>
           <View style={styles.sectionContainer}>
-            <Text
-              style={styles.sectionDescription}>
+            <Text style={styles.sectionDescription}>
               No projeto de React eu falei bastante sobre mim, né? Agora vou ter
               que usar toda a minha criatividade (que não é muita) para fazer
               esse projeto.
@@ -97,6 +97,10 @@ const Michelle = () => {
             Quer me fazer feliz? Me chama para um show, mas um show bom!
             {'\n'}E é sobre isso, não tenho mais idéia do que escrever! Espero
             que tenham aproveitado, até o próximo projeto.
+          </Section>
+          <Section title="Para mais informações">
+            <Link title="LinkedIn" url="https://www.linkedin.com/in/mi-sinibaldi/"/>
+            <Link title="Github" url="https://github.com/Mi-sinibaldi" />
           </Section>
         </View>
       </ScrollView>
